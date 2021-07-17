@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>questions</class>
+ <widget class="QMainWindow" name="questions">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>902</width>
+    <height>599</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>480</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 18pt &quot;Arial&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Next</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>50</y>
+      <width>401</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 18pt &quot;Arial&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Select the symptoms you feel:</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>160</y>
+      <width>831</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QCheckBox" name="vomiting">
+         <property name="styleSheet">
+          <string notr="true">font: 18pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Vomiting</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="fatigue">
+         <property name="styleSheet">
+          <string notr="true">font: 18pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Fatigue</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="skin_rash">
+         <property name="styleSheet">
+          <string notr="true">font: 18pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Skin rash</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="high_fever">
+         <property name="styleSheet">
+          <string notr="true">font: 18pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>High fever</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="chills">
+         <property name="styleSheet">
+          <string notr="true">font: 18pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Chills</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QCheckBox" name="sweating">
+         <property name="styleSheet">
+          <string notr="true">font: 18pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Sweating</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="headache">
+         <property name="styleSheet">
+          <string notr="true">font: 18pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Headache</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="cough">
+         <property name="styleSheet">
+          <string notr="true">font: 18pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Cough</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="nausea">
+         <property name="styleSheet">
+          <string notr="true">font: 18pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Nausea</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="loss_of_appetite">
+         <property name="styleSheet">
+          <string notr="true">font: 18pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>loss_of_appetite</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>902</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
